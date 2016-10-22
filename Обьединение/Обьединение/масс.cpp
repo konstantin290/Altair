@@ -3,7 +3,7 @@
 using namespace std;
 void main()
 {
-	float a[4],b[4],c[7],z[4];
+	float a[10],b[10],c[10],d[10];
 	int n;
 	cin>>n;
 	for(int i=0;i<n;i++)
@@ -16,7 +16,7 @@ void main()
 	}
 	for(int i=0;i<n;i++)
 	{
-		cin>>z[i];
+		cin>>d[i];
 	}
 	for (int i=0;i<n+n+n;i++)
 	{
@@ -31,7 +31,7 @@ void main()
 		
 		if(i%3==2)
 		{
-			c[i]=z[i/3];
+			c[i]=d[i/3];
 		}
 	}
 	for(int i=0;i<n+n+n;i++)
